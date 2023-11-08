@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-title {
+  @apply text-2xl font-medium mb-1;
+}
+
+.card {
+  @apply max-w-xl;
+}
+
+.card-about {
+  @apply text-gray-700;
+}
